@@ -130,12 +130,15 @@ currently:
 ## 📈 Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ankush-Dutta&show_icons=true&hide_border=true&bg_color=1a1c13&title_color=ffb59a&text_color=e4e3d7&icon_color=e8825f&count_private=true&include_all_commits=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankush-Dutta&layout=compact&hide_border=true&bg_color=1a1c13&title_color=ffb59a&text_color=e4e3d7&langs_count=6" alt="Top languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ankush-Dutta/Ankush-Dutta/output/contributions-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ankush-Dutta/Ankush-Dutta/output/contributions-light.svg" />
+    <img src="https://raw.githubusercontent.com/Ankush-Dutta/Ankush-Dutta/output/contributions-dark.svg" alt="Contribution graph animation" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ankush-Dutta&bg_color=1a1c13&color=e4e3d7&line=ffb59a&point=e8825f&area=true&area_color=e8825f&hide_border=true&custom_title=Contribution%20activity" alt="Contribution graph" width="100%" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankush-Dutta&layout=compact&hide_border=true&bg_color=1a1c13&title_color=ffb59a&text_color=e4e3d7&langs_count=6" alt="Top languages" />
 </p>
 
 <br/>
