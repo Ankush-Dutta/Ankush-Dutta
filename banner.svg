@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Ankush Dutta — AI/ML Engineer building RAG systems and edge-deployed vision models">
+  <defs>
+    <radialGradient id="glow" cx="72%" cy="45%" r="45%">
+      <stop offset="0" stop-color="#ffa078" stop-opacity=".30"/>
+      <stop offset=".55" stop-color="#e8825f" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#1a1c13" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="floor" cx="30%" cy="110%" r="60%">
+      <stop offset="0" stop-color="#e8825f" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#1a1c13" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#ffe6d2" fill-opacity=".07"/>
+    </pattern>
+    <linearGradient id="fadeR" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".45" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="dotMask"><rect width="1200" height="340" fill="url(#fadeR)"/></mask>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffc4ad"/>
+      <stop offset=".5" stop-color="#ffb59a"/>
+      <stop offset="1" stop-color="#e8825f"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 .06"/></feComponentTransfer>
+    </filter>
+    <style>
+      .name{font:800 76px 'Segoe UI','Helvetica Neue',Arial,sans-serif;letter-spacing:-2.5px;fill:#f4efe6}
+      .role{font:600 26px 'Segoe UI','Helvetica Neue',Arial,sans-serif;letter-spacing:-.3px;fill:#e4e3d7}
+      .em{font:italic 400 28px Georgia,'Times New Roman',serif;fill:#ffb59a}
+      .mono{font:500 13px 'JetBrains Mono','Cascadia Code',Consolas,monospace;letter-spacing:2px;fill:#e4e3d7;fill-opacity:.72}
+      .pill{font:500 13px 'JetBrains Mono','Cascadia Code',Consolas,monospace;fill:#7ee2a8}
+      .edge{stroke:#ffb59a;stroke-opacity:.22;stroke-width:1.2}
+      .node{fill:#ffb59a}
+      .pulse{animation:pulse 3.2s ease-in-out infinite}
+      .p2{animation-delay:.6s}.p3{animation-delay:1.2s}.p4{animation-delay:1.8s}.p5{animation-delay:2.4s}
+      .flow{stroke:#ffb59a;stroke-width:1.6;stroke-dasharray:6 210;animation:flow 4s linear infinite}
+      .f2{animation-delay:1.3s}.f3{animation-delay:2.6s}
+      .dot{animation:blink 2.4s ease-in-out infinite}
+      .rise{animation:rise 1s cubic-bezier(.2,.7,.2,1) both}
+      .r2{animation-delay:.15s}.r3{animation-delay:.3s}.r4{animation-delay:.45s}
+      @keyframes pulse{0%,100%{opacity:.35;r:3.2}50%{opacity:1;r:5}}
+      @keyframes flow{from{stroke-dashoffset:216}to{stroke-dashoffset:0}}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:.35}}
+      @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+      @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="340" rx="22" fill="#1a1c13"/>
+  <rect width="1200" height="340" rx="22" fill="url(#dots)" mask="url(#dotMask)"/>
+  <rect width="1200" height="340" rx="22" fill="url(#glow)"/>
+  <rect width="1200" height="340" rx="22" fill="url(#floor)"/>
+  <rect width="1200" height="340" rx="22" filter="url(#grain)"/>
+  <rect x=".5" y=".5" width="1199" height="339" rx="21.5" fill="none" stroke="#ffbea0" stroke-opacity=".14"/>
+
+  <!-- neural network motif (right) -->
+  <g transform="translate(790 70)">
+    <!-- edges -->
+    <g class="edge">
+      <path d="M0 40 L130 10 M0 40 L130 100 M0 40 L130 190 M0 140 L130 10 M0 140 L130 100 M0 140 L130 190 M0 220 L130 100 M0 220 L130 190"/>
+      <path d="M130 10 L260 60 M130 10 L260 160 M130 100 L260 60 M130 100 L260 160 M130 190 L260 60 M130 190 L260 160"/>
+      <path d="M260 60 L340 110 M260 160 L340 110"/>
+    </g>
+    <!-- signal flowing through -->
+    <path class="flow" fill="none" d="M0 140 L130 100 L260 60 L340 110"/>
+    <path class="flow f2" fill="none" d="M0 40 L130 190 L260 160 L340 110"/>
+    <path class="flow f3" fill="none" d="M0 220 L130 10 L260 160 L340 110"/>
+    <!-- glow halo -->
+    <circle cx="340" cy="110" r="16" fill="#ffb59a" fill-opacity=".25" filter="url(#soft)"/>
+    <!-- nodes -->
+    <circle class="node pulse" cx="0" cy="40" r="4"/>
+    <circle class="node pulse p2" cx="0" cy="140" r="4"/>
+    <circle class="node pulse p3" cx="0" cy="220" r="4"/>
+    <circle class="node pulse p2" cx="130" cy="10" r="4"/>
+    <circle class="node pulse p4" cx="130" cy="100" r="4"/>
+    <circle class="node pulse p5" cx="130" cy="190" r="4"/>
+    <circle class="node pulse p3" cx="260" cy="60" r="4"/>
+    <circle class="node pulse p5" cx="260" cy="160" r="4"/>
+    <circle cx="340" cy="110" r="7" fill="url(#accent)"/>
+  </g>
+
+  <!-- text -->
+  <g class="rise">
+    <rect x="64" y="52" width="380" height="32" rx="16" fill="#7ee2a8" fill-opacity=".08" stroke="#7ee2a8" stroke-opacity=".3"/>
+    <circle class="dot" cx="84" cy="68" r="4.5" fill="#34d27b"/>
+    <text class="pill" x="98" y="72.5">Open to SDE / ML roles · Kolkata or remote</text>
+  </g>
+  <text class="name rise r2" x="60" y="166">Ankush Dutta</text>
+  <g class="rise r3">
+    <text class="role" x="64" y="214">AI/ML Engineer — building <tspan class="em">RAG systems</tspan> &amp;</text>
+    <text class="role" x="64" y="250">edge-deployed <tspan class="em">vision models</tspan>.</text>
+  </g>
+  <g class="rise r4">
+    <rect x="64" y="280" width="44" height="3" rx="1.5" fill="url(#accent)"/>
+    <text class="mono" x="122" y="286">4 PAPERS · IEEE &amp; SPRINGER   ·   COMSYS '26 TALK   ·   9.32 CGPA</text>
+  </g>
+</svg>
